@@ -1,0 +1,3 @@
+[submodule "07-nodejs-container/src/gatsby-starter-simple-landing"]
+	path = 07-nodejs-container/src/gatsby-starter-simple-landing
+	url = https://github.com/greglobinski/gatsby-starter-simple-landing.git
