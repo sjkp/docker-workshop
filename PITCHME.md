@@ -60,9 +60,18 @@
 ### What is Docker for Windows
 - Installs the docker tools on windows 
 - A windows service that runs in the background and manages a VM
-- Relies on Hyper-V to run a Linux VM where the docker runs
+- Relies on Hyper-V to run a Linux VM where the containers run
 - Enables easy sharing of disk volumes with containers 
 - Enables easy access to minikube (developer version of kubernetes)
 
 ---
 
+![](https://i1.wp.com/blog.docker.com/wp-content/uploads/2013/08/KuDr42X_ITXghJhSInDZekNEF0jLt3NeVxtRye3tqco.png?ssl=1)
+
+---
+
+![](https://docs.docker.com/engine/images/architecture.svg)
+
+---
+
+![](https://success.docker.com/api/images/Docker_Reference_Architecture-_Designing_Scalable,_Portable_Docker_Container_Networks%2F%2Fimages%2Fcnm.png)

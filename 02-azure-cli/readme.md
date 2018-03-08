@@ -16,3 +16,32 @@ Boom now you have a Azure CLI 2.0 prompt without even installing anything
 
 Now lets create some azure resources 
 
+Inside the Azure CLI bash shell 
+
+```
+az login 
+
+az account set --subscription <subscription-id>
+
+az group create --name dockertest --location westeurope
+```
+
+To create a Azure Container Instance which we need next
+
+`
+az acr create --name skpdk --location westeurope --resource-group dockertest --sku Basic
+`
+
+To enable the admin account
+
+`
+az acr update -n skpdk --admin-enabled true
+`
+
+Now to get the password
+
+`
+az acr credential show --name skpdk --query passwords[0].value
+`
+
+
