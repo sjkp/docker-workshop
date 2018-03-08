@@ -1,4 +1,7 @@
 # Working with Azure Container Instances
+Our container is now in Azure Container Registery, lets deploy it to an Azure service. 
+
+The easiest Azure Service to deploy container to is Azure Container Instances, so lets start with that. 
 
 Get the password
 `

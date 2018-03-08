@@ -14,6 +14,13 @@ docker images
 
 Now lets push it to the remote
 
+First we need to login
+
+`
+docker login skpdk.azurecr.io -u skpdk -p <your-pass>
+`
+
+
 `
 docker push sjkpdk.azurecr.io/mynginxstatic
 `
