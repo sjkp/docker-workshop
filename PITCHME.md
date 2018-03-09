@@ -66,10 +66,6 @@
 
 ---
 
-![](https://i1.wp.com/blog.docker.com/wp-content/uploads/2013/08/KuDr42X_ITXghJhSInDZekNEF0jLt3NeVxtRye3tqco.png?ssl=1)
-
----
-
 ![](https://docs.docker.com/engine/images/architecture.svg)
 
 ---

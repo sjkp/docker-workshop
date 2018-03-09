@@ -1,7 +1,10 @@
-FROM node:8.1.0 as build
+FROM gatsbybase as build
 ENV NODE_ENV=production
-ADD src/gatsby-starter-simple-landing /usr/src/app
-RUN npm install --global gatsby-cli
+ADD src/gatsby-starter-blog /usr/src/app
 WORKDIR /usr/src/app
-RUN npm install
+RUN yarn install
 RUN npm run build 
+
+FROM nginx:alpine
+WORKDIR /usr/share/nginx/html
+COPY --from=build /usr/src/app/public .
